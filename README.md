@@ -1,17 +1,17 @@
 # Machine-Learning
 
-# 🛢️ OilyGiant: Machine Learning for Oil Region Profitability
+# OilyGiant: Machine Learning for Oil Region Profitability
 
 This project applies machine learning and statistical analysis to help **OilyGiant**, a mining company, choose the most profitable region for new oil well development. Using synthetic data from three surveyed regions, we build predictive models, calculate potential profits, and assess financial risks using the **bootstrapping** method.
 
-## 📊 Objective
+## Objective
 
 - Predict oil reserves in each region using **linear regression**
 - Select the top 200 wells per region based on predicted reserves
 - Estimate profits based on business constraints
 - Evaluate risk using bootstrapping and recommend the best region
 
-## 💼 Business Conditions
+## Business Conditions
 
 - 500 wells are sampled per region
 - Only the top 200 wells will be developed
@@ -20,7 +20,7 @@ This project applies machine learning and statistical analysis to help **OilyGia
 - Only **Linear Regression** may be used
 - Chosen region must have **< 2.5% chance of loss**
 
-## 📁 Datasets
+## Datasets
 
 Three datasets are used:  
 - `geo_data_0.csv`  
